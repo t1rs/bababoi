@@ -59,7 +59,7 @@ Git установлен
 ## Задание 6
 ### Подключение к удаленному репозиторию
 ![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.6(1).png)
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.6(2).jpg)
+![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.6(2).png)
 ## Выводы
 Подключение к удалённому репозиторию происходит с помощью команды git remote add origin URL
 С помощью git push добавляем изменения в удалённый репозиторий
@@ -68,8 +68,8 @@ Git установлен
 
 ## Задание 7
 ### Ветвление
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.7(1).jpg)
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.7(2).jpg)
+![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.7(1).png)
+![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.7(2).png)
 ## Выводы
 Ветвление используется для организации работы по разным направлениям(веткам)
 git branch название_ветки - cоздание ветки
@@ -79,15 +79,14 @@ git merge - слияние веток
 
 ## Задание 8
 ### Особенности применения «Фетч»
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.8.jpg)
+![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.8.png)
 ## Выводы
 git fetch извлекает изменения из удалённого репозитория, но не объединяет их с локальной веткой
 git fetch [Удалённый репозиторий]
 
 ## Задание 9
 ### Удаление файлов, веток, локальных и удалённых репозиториев
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.9(1).jpg)
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.9(2).jpg)
+![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.9.png)
 ## Выводы
 git rm [название файла] - удалить файл
 git rm --cached [название файла] - удалить файл из индекса

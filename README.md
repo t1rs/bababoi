@@ -28,3 +28,8 @@
 
 ### Результат.
 ![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.1.png)
+## Выводы
+Git установлен
+
+## Задание 2
+### Настройка

@@ -51,14 +51,14 @@ Git установлен
 
 ## Задание 5
 ### Фиксация изменений
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.5.jpg)
+![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.5.png)
 ## Выводы
 Для фиксации изменений используем команду git commit
 Для просмотра коммитов используем команду git log
 
 ## Задание 6
 ### Подключение к удаленному репозиторию
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.6(1).jpg)
+![Меню](https://github.com/t1rs/desktop-tutorial/blob/Тема_1/pic/2.6(1).png)
 ![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_1/pic/2.6(2).jpg)
 ## Выводы
 Подключение к удалённому репозиторию происходит с помощью команды git remote add origin URL

@@ -19,33 +19,33 @@
 знак "+" - задание выполнено; знак "-" - задание не выполнено;
 
 ## Задание 1
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.1.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/1.png)
 
 ## Задание 2
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.2.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/2.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/2.1.png)
 
 ## Задание 3
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.3.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/3.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/3.1.png)
 
 ## Задание 4
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.4.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/4.png)
 
 ## Задание 5
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.5.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/5.png)
 
 ## Задание 6
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.6(1).png)
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.6(2).png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/6.png)
 
 ## Задание 7
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.7(1).png)
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.7(2).png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/7.png)
 
 ## Задание 8
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.8.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/8.png)
 
 ## Задание 9
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.9.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/9.png)
 
 ## Задание 10
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_1/pic/2.10.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_4/pic/10.png)

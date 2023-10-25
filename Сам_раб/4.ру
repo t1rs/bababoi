@@ -1,0 +1,12 @@
+def main(*args):
+    if args:
+        total = sum(args)
+        average = total / len(args)
+        print("Среднее арифметическое:", average)
+    else:
+        print("Аргументы не были переданы")
+
+if __name__ == "__main__":
+    main(1, 2, 3, 4)
+    main(5, 10, 15)
+    main()

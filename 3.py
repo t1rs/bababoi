@@ -1,14 +1,13 @@
-import datetime
-import time
+import Heron
 
-# Получаем текущее время
-current_time = datetime.datetime.now()
+def main():
+    one = [12, 25, 3, 48, 71]
+    two = [5, 18, 40, 62, 98]
+    three = [4, 21, 37, 56, 84]
+    my_conList = one+two+three
+    my_conList.sort()
+    print("площади треугольника, составленного из минимальных элементов -", Heron.SquareHeron(my_conList[0], my_conList[1], my_conList[2]))
+    print("площади треугольника, составленного из максимальных элементов -", Heron.SquareHeron(my_conList[len(my_conList)-1], my_conList[len(my_conList)-2], my_conList[len(my_conList)-3]))
 
-end_time = current_time + datetime.timedelta(seconds=5)
-# Запускаем цикл, который будет выполняться в течение 5 секунд
-while datetime.datetime.now() < end_time:
-    current_time = datetime.datetime.now()
-    print(current_time.strftime("%H:%M:%S"))
-    time.sleep(1)  # Подождать 1 секунду перед следующим выводом
-
-print("Программа завершена.")
+if __name__ == "__main__":
+    main()

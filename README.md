@@ -40,6 +40,7 @@
 ## Задание 5
 ### Самостоятельно придумайте и решите задачу, в которой будут обязательно использоваться кортеж или список. Проведите минимум три теста для проверки работоспособности вашей задачи.
 Задача: Найти максимальный и минимальный элемент в списке.
+
 ![Меню](https://github.com/t1rs/bababoi/blob/Тема_6/pic/5.1.png)
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_5/pic/5.2.png)
-![Меню](https://github.com/t1rs/bababoi/blob/Тема_5/pic/5.3.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_6/pic/5.2.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_6/pic/5.3.png)

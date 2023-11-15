@@ -1,22 +1,26 @@
-def print_hi(name):
 
-    str = input()
-    my_list = []
-    my_list1 = []
-    count = 0
-    for num in str:
-        #Проверяю по символьно на число или нет, если число, то добавляю элемент в my_list.
-        if num.isdigit():
-            my_list.append(int(num))
-            if str[len(str)-2] == num:
-                my_list1.append(count)
-            count += 1
-    try:
-        my_list.pop(len(my_list) - 1)
-        print(tuple(my_list[my_list1[0]:my_list1[1]+1]))
-    except:
-        print(())
+def main():
+    # Открываем файл с запрещенными словами и читаем их
+    with open(r'C:\Users\Ivan\Desktop\input.txt', 'r') as file:
+        forbidden_words = file.read().split()
+
+    # Предложение для проверки
+    sentence = "Hello, world! Python IS the programming language of thE future. My EMAIL is.... PYTHON is awesome!!!!"
+
+    # Разбиваем предложение на слова
+    words = sentence.split()
+
+    # Функция для замены запрещенных слов в предложении
+    def replace_forbidden_words(word):
+        word_lower = word.lower()  # Приводим слово к нижнему регистру
+        for forbidden_word in forbidden_words:
+            if forbidden_word in word_lower:
+                word = '*' * len(word)
+        return word
+    # Заменяем запрещенные слова и выводим предложение
+    new_sentence = ' '.join(map(replace_forbidden_words, words))
+    print(new_sentence)
 
 
-if __name__ == '__main__':
-    print_hi('PyCharm')
+if __name__ == "__main__":
+    main()

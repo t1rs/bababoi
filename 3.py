@@ -1,17 +1,33 @@
-def print_hi(name):
+def main():
+    # Открываем файл input.txt для чтения
+    with open(r"C:\Users\Ivan\Desktop\input.txt", "r") as file:
+        text = file.read()
 
-    my_dic = {}
-    #Убираем повторные числа путем проверки, если ключ уже есть в my_dic, то пропускаем, иначе добавляем.
-    for num in name:
-        if num not in my_dic.keys():
-            my_dic[int(num)] = int(name.count(num))
-    #Сортируем по значениям. В качестве ключа сортировки мы используем лямбда-функцию lambda x: x[1], которая указывает, что мы хотим сортировать по второму элементу
-    sortedValue_dic = sorted(my_dic.items(), key=lambda x: x[1])[-3:]
-    # Сортируем по Ключу из оставшихся 3-х
-    sortedKey_dic = sorted(sortedValue_dic)
-    print("(Цифра(Key), Count(Values))", sortedKey_dic)
+    # Считаем количество букв, слов и строк
+    num_letters = count_letters(text)
+    num_words = count_words(text)
+    num_lines = count_lines(text)
 
+    # Выводим статистику
+    print(f"Количество букв латинского алфавита: {num_letters}")
+    print(f"Количество слов: {num_words}")
+    print(f"Количество строк: {num_lines}")
 
+def count_letters(text):
+    # Считаем количество букв латинского алфавита (a-zA-Z)
+    latin_letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    count = sum(1 for char in text if char in latin_letters)
+    return count
 
-if __name__ == '__main__':
-    print_hi('000000000000000213')
+def count_words(text):
+    # Разбиваем текст на слова по пробелам и символам новой строки
+    words = text.split()
+    return len(words)
+
+def count_lines(text):
+    # Считаем количество строк, разделяя текст по символам новой строки
+    lines = text.split("\n")
+    return len(lines)
+
+if __name__ == "__main__":
+    main()

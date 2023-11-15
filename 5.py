@@ -1,11 +1,15 @@
-def find_max_min(numbers):
-    min_num = numbers[0]
-    max_num = numbers[0]
-    for num in numbers:
-        if num < min_num:
-            min_num = num
-        if num > max_num:
-            max_num = num
-    return (min_num, max_num)
+import re
 
-print(find_max_min([-10, -20, -30, -40]))
+def count_nouns(file_path):
+    with open(r'C:\Users\Ivan\Desktop\input.txt', 'r') as file:
+        text = file.read()
+
+    # Используем регулярное выражение для поиска существительных
+    nouns = re.findall(r'\b[A-Z][a-zA-Z]*\b', text)
+
+    return len(nouns)
+
+# Пример использования
+file_path = 'text.txt'  # замените на путь к вашему файлу
+noun_count = count_nouns(file_path)
+print('Количество существительных в файле:', noun_count)

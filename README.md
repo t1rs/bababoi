@@ -21,6 +21,9 @@
 ![Меню](https://github.com/t1rs/bababoi/blob/Тема_8/pic/2.png)
 ![Меню](https://github.com/t1rs/bababoi/blob/Тема_8/pic/3.png)
 
+### Вывод
+### В этом примере класс Person имеет атрибуты имя(name) и возраст(age), а также метод показать_информацию(show_info) для вывода информации о человеке.
+
 
 
 

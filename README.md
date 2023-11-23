@@ -17,10 +17,9 @@
 ### Самостоятельно создайте класс и его объект. Атрибуты и методы. Реализуйте наследование. Реализуйте инкапсуляцию. Реализуйте полиморфизм.
 
 ### Результат.
-![Меню](https://github.com/vladimir-12343/Software_Engineering_0/blob/Тема_8/pic/2023-11-20_13-57-53.png)
-![Меню](https://github.com/vladimir-12343/Software_Engineering_0/blob/Тема_8/pic/2023-11-20_13-58-17.png)
-![Меню](https://github.com/vladimir-12343/Software_Engineering_0/blob/Тема_8/pic/2023-11-20_13-58-26.png)
-![Меню](https://github.com/vladimir-12343/Software_Engineering_0/blob/Тема_8/pic/2023-11-20_13-58-31.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_8/pic/1.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_8/pic/2.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_8/pic/3.png)
 
 
 

@@ -1,43 +1,58 @@
-class Person:
-    def __init__(self, name, age):
-        self.__name = name
-        self.__age = age
+class Tomato:
+    stages = {0: 'Отсутствует', 1: 'Цветение', 2: 'Зеленый', 3: 'Красный'}
 
-    def show_info(self):
-        print(f"Имя: {self.__name}, Количество лет: {self.__age}")
+    def __init__(self, index):
+        self.index = index
+        self.stage = 0
 
+    def grow(self):
+        if self.stage < len(self.stages) - 1:
+            self.stage += 1
+        else:
+            print(f"Помидоры {self.index} уже спелые!")
 
-class Employee(Person):
-    def __init__(self, name, age, position):
-        super().__init__(name, age)
-        self.position = position
-
-    def update_info(self, new_name, new_age):
-        self.__name = new_name
-        self.__age = new_age
-
-    def show_info(self):
-        super().show_info()
-        print(f"Должность: {self.position}")
+    def is_ripe(self):
+        return self.stage == len(self.stages) - 1
 
 
-class Manager(Person):
-    def __init__(self, name, age, department):
-        super().__init__(name, age)
-        self.department = department
+class TomatoBush:
+    def __init__(self, tomato_count):
+        self.tomatoes = [Tomato(index) for index in range(1, tomato_count + 1)]
 
-    def show_info(self):
-        super().show_info()
-        print(f"Отдел: {self.department}")
+    def grow_all(self):
+        for tomato in self.tomatoes:
+            tomato.grow()
+
+    def all_are_ripe(self):
+        return all([tomato.is_ripe() for tomato in self.tomatoes])
+
+    def give_away_all(self):
+        self.tomatoes = []
 
 
-person1 = Person("Анна Иванова", 30)
-employee1 = Employee("Иван Иванов", 25, "Прогаммный инженер")
-manager1 = Manager("Мария Петрова", 35, "Человеческие ресурсы")
+class Gardener:
+    def __init__(self, name, plant):
+        self.name = name
+        self._plant = plant
 
-def display_info(person):
-    person.show_info()
+    def work(self):
+        self._plant.grow_all()
 
-display_info(person1)
-display_info(employee1)
-display_info(manager1)
+    def harvest(self):
+        if self._plant.all_are_ripe():
+            self._plant.give_away_all()
+        else:
+            print("Ещё не все томаты поспели")
+
+    @staticmethod
+    def knowledge_base():
+        print("Садоводство - это практика выращивания растений как часть огородничества.")
+Gardener.knowledge_base()
+# Пример использования:
+tomato_bush = TomatoBush(5)
+gardener = Gardener("John", tomato_bush)
+gardener.work()
+gardener.work()
+gardener.work()
+gardener.work()
+gardener.harvest()

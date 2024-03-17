@@ -22,11 +22,11 @@
 Никаких других действий или циклов использовать нельзя.
 
 ### Результат.
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_3/pic/1.jpg)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_3/pic/1.png)
 
 ## Задание 2
 ### 2)	Напишите программу, которая фразу «Hello World» выводит в обратном порядке, и каждая буква находится в одной строке консоли. 
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_3/pic/2.jpg)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_3/pic/2.png)
 ## Выводы
 Я узнал про reversed
 
@@ -37,7 +37,7 @@
 •	от 6 до 10 включительно
 Результатом работы программы будет выведенный в консоль диапазон. Программа должна занимать не более 10 строчек в редакторе кода.
 
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_3/pic/3.jpg)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_3/pic/3.png)
   
 ## Задание 4
 ### Манипулирование строками. Напишите программу на Python, которая принимает предложение (на английском) в качестве входных данных от пользователя. Выполните следующие операции и отобразите результаты:
@@ -48,10 +48,10 @@
 •	Проверьте, начинается ли предложение с "The" и заканчивается ли на "end".
 Проверьте работу программы минимум на 3 предложениях, чтобы охватить проверку всех поставленных условий.
 
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_3/pic/4.jpg)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_3/pic/4.png)
 ## Выводы
 Я поработал со строками и усвоил некоторые методы для их преобразования
 
 ## Задание 5
 ### 5)	Составьте программу, результатом которой будет данный вывод в консоль:
-![Меню](https://github.com/illusprite/SoftwareEngineering/blob/Topic_3/pic/5.jpg)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_3/pic/5.png)

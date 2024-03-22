@@ -22,6 +22,7 @@
 
 ### Результат.
 ![Меню](https://github.com/t1rs/bababoi/blob/Тема_11/pic/2.png)
+![Меню](https://github.com/t1rs/bababoi/blob/Тема_11/pic/2.2.png)
 
 ## Выводы
 Я закрепил изученный материал
